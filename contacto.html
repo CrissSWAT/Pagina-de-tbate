@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="contacto.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="caja">
+        <h1 class="headertitulo">The beginin after the End</h1>
+        <a href="index.html"
+          ><img
+            src="tbate imagenes/icono tbate.png"
+            class="imagenHeader"
+            alt="logo"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="personajes.html"> Productos </a></li>
+            <li><a href="contacto.html"> Contactos </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <form class="form1">
+        <label for="nombreApellido">Nombre Completo</label>
+        <input
+          type="text"
+          id="nombreApellido"
+          class="input_padron"
+          required
+          placeholder="Nombre y Apellido"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="input_padron"
+          required
+          placeholder="email@dominio.com"
+        />
+        <label for="telefono">Telefono</label>
+        <input
+          type="number"
+          id="telefono"
+          class="input_padron"
+          required
+          placeholder="+569 123456789"
+        />
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          cols="70"
+          rows="10"
+          id="mensaje"
+          class="input_padron"
+          required
+        ></textarea>
+        <fieldset>
+          <legend>Por que medio prefiere ser contactado?</legend>
+          <label for="radioMail"
+            ><input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radioMail"
+            />Email</label
+          >
+          <label for="radioTelefono">
+            <input
+              type="radio"
+              name="contacto"
+              value="telefono"
+              id="radioTelefono"
+            />Telefono</label
+          >
+          <label for="radioWhatsapp"
+            ><input
+              type="radio"
+              name="contacto"
+              value="whatsapp"
+              id="radioWhatsapp"
+            />Whatsapp</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>
+            ¿Cúal horario estrima conveniente para ser contactado?
+          </legend>
+          <select>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="noche">Noche</option>
+          </select>
+        </fieldset>
+        <label id="checkboxNotificacion"
+          ><input type="checkbox" checked />¿Le gustaria resivir notifiacion
+          sobre las novedades de tbate?</label
+        >
+        <input type="submit" value="Enviar formulario" id="botonEnviar" />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Dias</th>
+            <th>Horario de atencion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Viernes</td>
+            <td>10:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Sabado</td>
+            <td>10:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>10:00-18:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <img src="tbate imagenes/icono tbate.png" class="iconFooter" alt="logo" />
+      <p class="copyrigth">
+        &copy; Derechos de autor Tbate. Todos los derechos reservados 2023
+      </p>
+    </footer>
+  </body>
+</html>

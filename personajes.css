@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(32 33 36);
+}
+header {
+  background-color: rgb(53 53 53);
+  padding: 20px 0;
+}
+.headertitulo {
+  font-size: 60px;
+  text-align: center;
+  color: #7952b3;
+}
+
+/*.caja{
+        width: 940px;
+        position: relative;
+        margin: 0 auto;
+
+    }*/
+
+.imagenHeader {
+  position: absolute;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+nav {
+  position: absolute;
+  top: 10;
+  right: 0;
+  padding-right: 50px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #7952b3;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(3 105 161);
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+nav a:active {
+  color: rgb(29 78 216);
+}
+
+.volumenesCreados {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.volumenesCreados li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  /*background-color: aqua;*/
+  margin: 1.5% 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #7952b3;
+  border-radius: 10px;
+}
+
+.volumenesCreados li:hover {
+  border-color: rgb(3 105 161);
+}
+
+.volumenesCreados li:active {
+  border-color: rgb(29 78 216);
+}
+
+.volumenesCreados h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #7952b3;
+}
+
+.volumenesCreados li:hover h2 {
+  font-size: 33px;
+}
+
+.volumenesCreados img {
+  width: 242px;
+  height: 349px;
+}
+.productoPrecio {
+  font-size: 20px;
+  font-weight: bolder;
+  color: red;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(53 53 53);
+  padding: 10px;
+}
+
+.iconFooter {
+  width: 100px;
+  height: 100px;
+}
+
+.copyrigth {
+  background-color: rgb(53 53 53);
+  color: #7952b3;
+  font-size: 13px;
+  margin: 10px;
+}

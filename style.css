@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(32 33 36);
+}
+header {
+  background-color: rgb(53 53 53);
+  padding: 20px 0;
+}
+.headertitulo {
+  font-size: 60px;
+  text-align: center;
+  color: #7952b3;
+}
+
+/*.caja{
+            width: 940px;
+            position: relative;
+            margin: 0 auto;
+    
+        }*/
+
+.imagenHeader {
+  position: absolute;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+nav {
+  position: absolute;
+  top: 10;
+  right: 0;
+  padding-right: 50px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #7952b3;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(3 105 161);
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: rgb(29 78 216);
+}
+
+#baner {
+  width: 98%;
+  height: auto;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #7952b3;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#baner:hover {
+  border-color: rgb(3 105 161);
+}
+
+#baner:active {
+  border-color: rgb(29 78 216);
+}
+footer {
+  text-align: center;
+  background-color: rgb(53 53 53);
+  padding: 10px;
+}
+
+.iconFooter {
+  width: 100px;
+  height: 100px;
+}
+
+.copyrigth {
+  background-color: rgb(53 53 53);
+  color: #7952b3;
+  font-size: 13px;
+  margin: 10px;
+}

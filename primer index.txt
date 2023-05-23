@@ -1,0 +1,52 @@
+<!--img id="baner" src="https://rare-gallery.com/thumbnail/27802-The-Beginning-After-The-End-HD-Wallpaper.jpg">
+
+        <div class="principal">
+            
+            
+            
+             <h2 class="tituloCentralizado"> 
+                Arthur Leywin  
+             </h2>
+    
+            <p>
+                <em>
+                    <strong> 
+                        Este contenido esta marcado con enfacis
+                    </strong>
+                    Este es un parrafo Este es un parrafo Este es un parrafo Este es un parrafo
+                    Este es un parrafo Este es un parrafo Este es un parrafo Este es un parrafo
+                </em>
+            </p>
+                
+                
+            <p id="mision">
+                Este es un parrafo Este es un parrafo Este es un parrafo Este es un parrafo
+                Este es un parrafo Este es un parrafo Este es un parrafo Este es un parrafo
+            </p>
+                
+        </div>
+        <div class="diferencial">
+
+            <h3 class="tituloCentralizado"> 
+                Diferenciales
+            </h3>
+
+            <ul>
+                    
+                <li>
+                    - Texto texto texto texo 
+                </li>
+                <li>
+                    - Texto texto texto texo texto 
+                </li>
+                <li>
+                    - Texto texto texto texo 
+                </li>
+                <li> 
+                    - Texto texto texto texo texto 
+                </li>  
+            </ul>
+
+            <img src="https://i.pinimg.com/originals/74/73/73/747373352827d7512390f2d628b65f08.jpg" class="imagenDiferencial">
+
+        </div-->
