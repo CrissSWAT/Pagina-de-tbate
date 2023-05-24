@@ -55,7 +55,6 @@ nav a:hover {
 nav a:active {
   color: rgb(29 78 216);
 }
-
 .volumenesCreados {
   width: 940px;
   margin: 0 auto;
@@ -123,4 +122,10 @@ footer {
   color: #7952b3;
   font-size: 13px;
   margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .imagenHeader{
+    display: none;
+  }
 }

@@ -89,3 +89,9 @@ footer {
   font-size: 13px;
   margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .imagenHeader{
+    display: none;
+  }
+}
