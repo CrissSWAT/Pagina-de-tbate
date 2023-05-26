@@ -1,5 +1,10 @@
+*{
+  border: 1px red solid;
+}
 body {
   background-color: rgb(32 33 36);
+  font-family: "Krub", sans-serif;
+  font-family: "Yantramanav", sans-serif;
 }
 header {
   background-color: rgb(53 53 53);
@@ -55,23 +60,74 @@ nav a:active {
   color: rgb(29 78 216);
 }
 
-#baner {
-  width: 98%;
+.contenedorBaner{
+  padding: 20px;
+}
+.baner {
+  width: 100%;
   height: auto;
   border-width: 4px;
   border-style: solid;
   border-color: #7952b3;
-  margin: 10px;
+  /* margin: 10px; */
   border-radius: 10px;
 }
 
-#baner:hover {
+.baner:hover {
   border-color: rgb(3 105 161);
 }
 
-#baner:active {
+.baner:active {
   border-color: rgb(29 78 216);
 }
+.principal {
+  color: #7952b3;
+  margin: 1em auto;
+  font-size:x-large;
+}
+.principal strong {
+  font-weight: bold;
+}
+.principal em {
+  font-style: italic;
+}
+.principal p {
+  margin: 0 0 1em;
+}
+.tituloPrincipal {
+  text-align: center;
+  font-size: 2em;
+  clear: left;
+  color: #7952b3;
+}
+/* .divParrafo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  margin: 0 4rem;
+
+} */
+.sinopsis {
+  text-align: justify;
+  font-size: large;
+}
+#baner2 {
+  width: 20%;
+}
+#baner3 {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.mapa{
+  padding: 3em 0;
+  margin: 10px;
+}
+.videoyoutube{
+  width: 560px;
+  margin: 1em auto;
+}
+
 footer {
   text-align: center;
   background-color: rgb(53 53 53);
@@ -91,7 +147,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .imagenHeader{
+  .imagenHeader {
     display: none;
   }
 }
