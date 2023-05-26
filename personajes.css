@@ -1,5 +1,7 @@
 body {
   background-color: rgb(32 33 36);
+  font-family: "Krub", sans-serif;
+  font-family: "Yantramanav", sans-serif;
 }
 header {
   background-color: rgb(53 53 53);
@@ -125,7 +127,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .imagenHeader{
+  .imagenHeader {
     display: none;
+  }
+  .volumenesCreados {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
   }
 }
