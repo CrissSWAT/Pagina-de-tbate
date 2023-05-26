@@ -10,6 +10,11 @@ body {
     flex-direction: column;
     min-height: 100vh;*/
 }
+main {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
 header {
   background-color: rgb(53 53 53);
   padding: 20px 0;
@@ -64,12 +69,17 @@ nav a:active {
   color: rgb(29 78 216);
 }
 
-main {
+/* main {
   width: 940px;
   margin: 0 auto;
   padding: 50px;
+} */
+main {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px;
 }
-
 form {
   margin: 40px 0;
   color: #7952b3;

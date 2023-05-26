@@ -3,6 +3,11 @@ body {
   font-family: "Krub", sans-serif;
   font-family: "Yantramanav", sans-serif;
 }
+main {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
 header {
   background-color: rgb(53 53 53);
   padding: 20px 0;
