@@ -63,15 +63,14 @@ nav a:active {
   color: rgb(29 78 216);
 }
 .volumenesCreados {
-  width: 940px;
+   width: 100%; 
   margin: 0 auto;
-  padding: 50px;
+  padding: 10px;
 }
 
 .volumenesCreados li {
   display: inline-block;
   text-align: center;
-  width: 30%;
   vertical-align: top;
   /*background-color: aqua;*/
   margin: 1.5% 1.5%;
@@ -138,6 +137,6 @@ footer {
   .volumenesCreados {
     display: flex;
     flex-direction: column;
-    margin-left: 45px;
+    
   }
 }

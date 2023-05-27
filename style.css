@@ -103,7 +103,7 @@ nav a:active {
   color: #7952b3;
   text-decoration: underline;
   padding: 1rem;
-} 
+}
 .divParrafo p {
   font-size: 1.1em;
   margin: 0 4rem;
@@ -125,7 +125,7 @@ nav a:active {
   transition: 400ms;
   box-shadow: -15px 15px 15px black;
 }
-#baner2:hover{
+#baner2:hover {
   opacity: 30%;
 }
 #baner3 {
@@ -135,18 +135,18 @@ nav a:active {
   transition: 400ms;
   box-shadow: 15px 15px 15px black;
 }
-#baner3:hover{
+#baner3:hover {
   opacity: 30%;
 }
-#linkmanga:hover{
+#linkmanga:hover {
   color: rgb(3 105 161);
   text-decoration: underline;
   font-size: 24px;
 }
-.items:before{
+.items:before {
   content: "★";
 }
-  
+
 .mapa {
   padding: 3em 0;
   margin: 10px;

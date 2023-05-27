@@ -10,11 +10,6 @@ body {
     flex-direction: column;
     min-height: 100vh;*/
 }
-main {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-}
 header {
   background-color: rgb(53 53 53);
   padding: 20px 0;
@@ -78,7 +73,7 @@ main {
   width: 90%;
   height: auto;
   margin: 0 auto;
-  padding: 50px;
+  padding: 1rem;
 }
 form {
   margin: 40px 0;
@@ -178,5 +173,12 @@ footer {
 @media screen and (max-width: 768px) {
   .imagenHeader{
     display: none;
+  }
+  form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    color: #7952b3;
   }
 }
