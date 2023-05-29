@@ -12,7 +12,7 @@ body {
 }
 header {
   background-color: rgb(53 53 53);
-  padding: 20px 0;
+  padding: 20px 4rem;
 }
 .headertitulo {
   font-size: 60px;
@@ -20,26 +20,85 @@ header {
   color: #7952b3;
 }
 
-/*.caja{
-        width: 940px;
-        position: relative;
-        margin: 0 auto;
-
-    }*/
-
-.imagenHeader {
-  position: absolute;
-  top: 10px;
-  width: 100px;
-  height: 100px;
-  margin: 50px;
+.caja {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav {
+.imagenHeader {
+  width: 4rem;
+  height: auto;
+}
+.btn-Menu{
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnMenu{
+  width: 4rem;
+}
+#btn-menu{
+  display: none;
+}
+.contenedor-menu{
   position: absolute;
-  top: 10;
-  right: 0;
-  padding-right: 50px;
+  background-color: rgba(0, 0, 0, 0, 5);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-menu:checked ~ .contenedor-menu{
+  opacity: 1;
+  visibility: visible;
+}
+.cont-menu{
+  width: 100%;
+  max-width: 100%;
+  background-color: rgb(32 33 36);
+  opacity: 90%;
+  height: 100vh;
+  position: relative;
+  transition: all 500ms ease;
+  transform: translateX(0%)
+}
+#btn-menu:checked ~ .cont-menu{
+  transform: translateX(-100%)
+}
+.cont-menu nav{
+  transform: translateY(15%);
+}
+.cont-menu nav a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-left: 5px solid transparent;
+  transition: all 400ms ease;
+
+}
+.cont-menu nav a:hover{
+  border-left: 5px solid rgb(3 105 161);
+  background-color: rgb(30 31 34);
+}
+.cont-menu label{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  color: #7952b3;
+  cursor: pointer;
+  font-size: 18px;
+}
+.botonX{
+  width: 1rem;
+  
+  
 }
 
 nav li {
@@ -171,14 +230,25 @@ footer {
   margin: 10px;
 }
 @media screen and (max-width: 768px) {
-  .imagenHeader{
-    display: none;
-  }
   form {
     display:flex;
     flex-direction: column;
     align-items: center;
     margin: 40px 0;
     color: #7952b3;
+  }
+  .caja {
+    display: none;
+  }
+  .icono-oculto{
+    display: flex;
+  }
+}
+@media screen and (min-width: 760px) {
+  .btn-Menu {
+    display: none;
+  }
+  .cont-menu{
+    display: none;
   }
 }
