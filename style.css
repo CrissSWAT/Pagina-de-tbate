@@ -1,7 +1,7 @@
 body {
   background-color: rgb(32 33 36);
-  font-family: "Krub", sans-serif;
-  font-family: "Yantramanav", sans-serif;
+  font-family: 'Krub', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
 }
 main {
   width: 90%;
@@ -15,7 +15,7 @@ header {
 .headertitulo {
   font-size: 60px;
   text-align: center;
-  color: #7952b3;
+  color: #BB8FCE;
 }
 .icono-oculto{
   display: none;
@@ -95,7 +95,7 @@ header {
   position: absolute;
   right: 5px;
   top: 10px;
-  color: #7952b3;
+  color: #BB8FCE;
   cursor: pointer;
   font-size: 18px;
 }
@@ -118,7 +118,7 @@ nav li {
 
 nav a {
   text-transform: uppercase;
-  color: #7952b3;
+  color: #BB8FCE;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -141,7 +141,7 @@ nav a:active {
   height: auto;
   border-width: 4px;
   border-style: solid;
-  border-color: #7952b3;
+  border-color: #BB8FCE;
   /* margin: 10px; */
   border-radius: 10px;
 }
@@ -154,7 +154,7 @@ nav a:active {
   border-color: rgb(29 78 216);
 }
 .principal {
-  color: #7952b3;
+  color: #BB8FCE;
   margin: 1em auto;
   font-size: x-large;
 }
@@ -171,9 +171,10 @@ nav a:active {
   text-align: center;
   font-size: 2em;
   clear: left;
-  color: #7952b3;
-  text-decoration: underline;
+  color: #BB8FCE;
+  /* text-decoration: underline; */
   padding: 1rem;
+  font-weight: bold;
 }
 .divParrafo p {
   font-size: 1.1em;
@@ -183,7 +184,8 @@ nav a:active {
 .divParrafo h3 {
   text-align: center;
   font-size: 2em;
-  text-decoration: underline;
+  font-weight: bold;
+  /* text-decoration: underline; */
 }
 .sinopsis {
   text-align: justify;
@@ -242,7 +244,7 @@ footer {
 
 .copyrigth {
   background-color: rgb(53 53 53);
-  color: #7952b3;
+  color: #BB8FCE;
   font-size: 13px;
   margin: 10px;
 }
